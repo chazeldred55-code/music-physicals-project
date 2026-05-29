@@ -1,71 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
-/* CSS variables */
-
 @import url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css');
+
+/* CSS Variables */
 :root {
     --primary-color: #3498db;
     --secondary-color: #2ecc71;
     --accent-color: #170d0b;
-    --background-color: white ;
+    --background-color: white;
     --text-color: #2c3e50;
-    --primary-font: arial, sans-serif;
+    --primary-font: Arial, sans-serif;
     --secondary-font: 'Merriweather', serif;
     --font-size: 16px;
 }
 
-@media (max-width: 768px) {
-  /* Styles for tablets and smaller screens */
-}
-
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     font-size: 2.5em;
     margin-bottom: 20px;
-    font-family: Merriweather, serif;
 }
+
 .sub-heading-color {
-    color: var(--highlight-color);
+    color: var(--primary-color);
 }
 
-.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-
-}
-
-/*navbar*/
+/* Navbar */
 
 nav {
     display: flex;
     flex-wrap: wrap;
-    }
-    
-    nav a {
- background-color: var(--primary-color);
+}
+
+nav a {
+    background-color: var(--primary-color);
     color: white;
-    padding: 10px 15px;
+    padding: 15px 25px;
     text-decoration: none;
     border-radius: 5px;
     margin: 5px;
     transition: background-color 0.3s ease;
-  display: block;
-    text-decoration: none;
-     padding: 15px 25px;
-    text-align: center; }
-   
-    .full-height {
-        min-height: 100vh;
-        text-align: center;
-    }
-    
-    
+    display: block;
+    text-align: center;
+}
+
+.full-height {
+    min-height: 100vh;
+    text-align: center;
+}
+
 /* General body styling */
+
 body {
     background-color: var(--background-color);
     color: var(--text-color);
@@ -75,6 +61,7 @@ body {
 }
 
 /* Links */
+
 a {
     color: #007BFF;
     text-decoration: none;
@@ -85,6 +72,7 @@ a:hover {
 }
 
 /* Lists */
+
 ul {
     list-style-type: none;
     padding-left: 0;
@@ -92,4 +80,28 @@ ul {
 
 li {
     margin-bottom: 10px;
+}
+
+/* Contact Page */
+
+.contact-hero-img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Success Page */
+
+.success-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.success-icon {
+    font-size: 4rem;
+    color: #28a745;
 }

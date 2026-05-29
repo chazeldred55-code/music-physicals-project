@@ -124,3 +124,36 @@ result of clicking button:
 result of clicking return button 
 <img width="1862" height="837" alt="image" src="https://github.com/user-attachments/assets/afc05606-259e-4412-bd98-8b8cdaaf9a16" />
 
+## W3C HTML Validation
+
+### index.html
+
+![Index Validation](assets/images/testing/HTML-Validation-index.html.png)
+
+Result: No errors found.
+
+### contact-us.html
+
+![Contact Validation](assets/images/testing/HTML-Validation-contact-us.html.png)
+
+Result: No errors found.
+
+### product-page.html
+
+![Product Page Validation](assets/images/testing/HTML-Validation-product-page.html.png)
+
+Result: No errors found.
+
+### success.html
+
+![Success Page Validation](assets/images/testing/HTML-Validation-success.html.png)
+
+Result: No errors found.
+
+## CSS Validation
+
+### styles.css
+
+![CSS Validation](assets/images/testing/CSS-%20Validation-styles.css.png)
+
+Result: No errors found.
