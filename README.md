@@ -16,6 +16,7 @@ Welcome to Music Physicals, where you can indulge in your interests in different
 10. [License](#license)
 11. [Bugs_Fixed](#bugs-fixed)
 12. [User_Cases](#user-cases)
+13. [Credits](#credits)
 
 ## Mobile
 
@@ -224,6 +225,19 @@ To phone call or email the details provided.
 
 ### Result
 Received and email during the times that was shown, was able to communicate what they needed. The item was in reservation. sold the item.
+
+## Credits
+
+### Images
+
+The following images used throughout this project are original photographs taken and owned by the developer using a Samsung Galaxy S23 smartphone:
+
+* cdjewelcases.jpg
+* dogwithearphones.jpg
+* sidesofcassetes.jpg
+* sidesofjewelcase.jpg
+* topofvinyl.jpg
+* vinylincase.jpg
 
 
 
